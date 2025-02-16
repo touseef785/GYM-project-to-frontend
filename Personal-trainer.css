@@ -1,0 +1,355 @@
+.navbar{
+    background-color: #151515;
+}
+.navbar-brand{
+    font-family: Georgia, Times, 'Times New Roman', serif;
+}
+.navbar-nav li a{
+    font-family: Impact, 'Arial Narrow Bold', sans-serif;
+
+}
+.navbar-nav li a:hover{
+    border-bottom: 2px solid red;
+    transition: all;
+    transition-duration: 1s;
+}
+button.btn{
+    font-family: Georgia, Times, 'Times New Roman', serif;
+   
+}
+.dropdown{
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    color: white;
+    
+    
+}
+
+
+section h2,h1{
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    font-weight: 900;
+    font-size: 30px;
+}
+.container-section{
+    background: rgba(0,0,0,0.7)url(strong.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+    
+}
+/*-------------------------services--------------------------------------->*/
+.Services-bo2{
+    color:black;
+    text-align: center;
+    margin: 10px;
+
+}
+.Services-bo2 h5{
+    font-size: 10px;
+    color: red;
+}
+/*-------------------------card--------------------------------------->*/
+.card-body{
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.box-card-text{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        gap: 15px;
+        flex-wrap: wrap;
+
+}
+/*-------------------------table--------------------------------------->*/
+.table-heading{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+}
+.table_component {
+    overflow: auto;
+    width: 100%;
+}
+
+.table_component table {
+    border: 17px solid #454545;
+    height: 100%;
+    width: 100%;
+    table-layout: auto;
+    border-collapse: collapse;
+    border-spacing: 0px;
+    text-align: center;
+}
+
+.table_component caption {
+    caption-side: top;
+    text-align: center;
+}
+
+.table_component th {
+    border: 10px solid #454545;
+    background-color: #e66700;
+    color: #1c1c1c;
+    padding: 15px;
+}
+
+.table_component td {
+    border: 17px solid #454545;
+    background-color: #292929;
+    color: #e8e8e8;
+    padding: 15px;
+}
+
+.expert-heading h1{
+    font-size: 20px;
+    font-weight: 800;
+    color: rgb(171, 171, 171);
+    padding-top:20px;
+}
+
+.expert-heading p{
+    font-size:40px;
+    font-weight: 500;
+    color: #e66700;
+}
+.expert-heading{
+    display:flex;
+    flex-direction: column;
+}
+.box2{
+    background-color:#292929;
+}
+
+/*-------------------aboutpage----------------------->*/
+.coach-feature li {
+    text-decoration: none;
+    list-style: none;
+
+}
+/*-------------------program-services page----------------------->*/
+.icon-services{
+    font-size: 20px;
+    -webkit-box-shadow: 10px 10px 22px 0px rgba(130,130,130,1);
+-moz-box-shadow: 10px 10px 22px 0px rgba(130,130,130,1);
+box-shadow: 10px 10px 22px 0px rgba(130,130,130,1);
+padding: 20px;
+margin: 40px;
+
+    
+    
+}
+.icon-services h3{
+    font-size: 25px;
+    font-weight: 800;
+    color: red;
+}
+/*-------------------single-trainer page----------------------->*/
+.box-weight{
+    
+   
+
+
+}
+.box-weight:hover{
+    border-bottom: 1px solid #e66700;
+    
+transition: all;
+transition-duration: 2s;
+  
+}
+/*------------------------------contact page---------------------------->*/
+.box-contact{
+    -webkit-box-shadow: 10px 10px 22px 0px rgba(130,130,130,1);
+    -moz-box-shadow: 10px 10px 22px 0px rgba(130,130,130,1);
+    box-shadow: 10px 10px 22px 0px rgba(130,130,130,1);
+    padding: 5px;
+    
+}
+.box-img{
+    -webkit-box-shadow: 10px 10px 22px 0px rgba(130,130,130,1);
+    -moz-box-shadow: 10px 10px 22px 0px rgba(130,130,130,1);
+    box-shadow: 10px 10px 22px 0px rgba(130,130,130,1);
+    border: 1px solid black;
+    border-radius: 50px;
+
+}
+
+/*-------------------------footer--------------------------------------->*/
+.footer-container{
+    width: 100%;
+    display: flex;
+    background: linear-gradient(rgba(0, 0, 0, .8), rgba(0, 0, 0, .8)), url(bg.jpg);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 50px;
+  }
+  .get-in-touch{
+    width: 25%;
+    
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    justify-content: center;
+    padding: 20px;
+    margin: 20px;
+  }
+  .icons{
+    display: flex;
+    align-items: center;
+    padding:3px;
+    
+  }
+  .get-in-touch h3{
+    font-size: 20px;
+    font-weight: 800;
+    padding: 2px;
+    color: rgb(213, 29, 29);
+  }
+  .quick-links{
+    width: 25%;
+   
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    margin: 20px;
+  }
+  .quick-links h3{
+    font-size: 20px;
+    font-weight: 800;
+    padding: 2px;
+    color:red;
+  }
+  .quick-links ul{
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+  }
+  .quick-links ul li{
+    padding: 5px;
+  }
+  .quick-links ul li a{
+    color: white;
+    text-decoration: none;
+  }
+  .quick-links ul li a:hover{
+    color: red;
+  }
+  .social-media{
+    width: 25%;
+   
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    margin: 20px;
+  }
+  .social-media h3{
+    font-size: 20px;
+    font-weight: 800;
+    padding: 2px;
+    color: red;
+    padding-bottom: 10px;
+  }
+  .social-icons{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+  }
+  .social-icons i{
+    font-size: 30px;
+    color: white;
+  }
+  .social-icons i:hover{
+    color: red;
+  }
+  .opening{
+    width: 25%;
+   
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    margin: 20px;
+  }
+  .opening h3{
+    font-size: 20px;
+    font-weight: 800;
+    color: red;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .hours{
+    font-size: 15px;
+    font-weight: 600;
+    color: white;
+    padding: 2px;
+    padding-bottom: 10px;
+  }
+  .hours ul{
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+  }
+  .hours ul li{
+    padding: 5px;
+  
+  }
+  .copyright{
+    width: 100%;
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+  
+    background-color: rgb(17,17,17);
+  }
+  /*-------footer mobial view------------->*/
+  @media screen and (max-width: 768px) {
+    .footer-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .get-in-touch{
+        width: 62%;
+    }
+    .quick-links{
+        width: 50%;
+    }
+    .social-media{
+        width: 50%;
+    }
+    .opening{
+        width: 50%;
+    }
+    
+
+  }
+
